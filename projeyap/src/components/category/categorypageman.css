@@ -1,0 +1,89 @@
+.panel{
+    margin-left: 150px;
+}
+.categorybtnman{
+    
+    margin: 20px;
+    margin-left: 0px;
+    width: 80px;
+    text-align: center;
+    height: 40px;
+    border: 1px solid darkgreen;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.product-m{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: center;
+}
+.product-frame {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+.product-m img{
+    width: 200px;
+    margin: 30px;
+    border-radius: 40px;
+}
+
+.product-m h2{
+    text-align: center;
+}
+
+
+#addbtn{
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.azaltButon{
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.artirButon{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#odemeyap{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 600px;
+}
+.selected {
+    background-color: orange;
+  }

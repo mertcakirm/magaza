@@ -1,0 +1,52 @@
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.wall{
+    flex: 1;
+}
+.wall img{
+    width: 700px;
+    height: 500px;
+    border-bottom-right-radius: 100px;
+}
+.odeme {
+    text-align: center;
+    width: 650px;
+    height: 500px;
+    margin: auto;
+    background-color: #EAD7BB;
+    display: table;
+    border-bottom-left-radius:100px ;
+
+}
+.odeme .formum{
+    padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.odeme input{
+    width: 400px;
+    margin: 10px;
+    height: 25px;
+    border-radius: 20px;
+    
+
+}
+.yan{
+    display: flex;
+}
+.yan input{
+    width: 150px;
+}
+#cvv{
+    margin-left: 150px;
+}
+.odemebtn{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 30px;
+}

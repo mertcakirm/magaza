@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+
+.cinsiyet{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cinsiyet img{
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.kategoriler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.kategoriler .url a img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.kategoriler .title{
+    position: relative;
+    margin-top: 60px;
+    
+}
+.kategoriler .url{
+    position: absolute;
+    margin-top: 150px;
+
+}
+
+.prgf{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 400px;
+    margin-bottom:200px      ;
+}
